@@ -2,10 +2,10 @@ source "https://rubygems.org"
 
 ruby Pathname.new(__dir__).join(".ruby-version").read.strip
 
+gem "vite_rails", "~> 3.0"
 gem "rails", "~> 7.1.2"
 gem "pg", "~> 1.1"
 gem "puma", ">= 5.0"
-gem "jsbundling-rails"
 gem "turbo-rails"
 gem "stimulus-rails"
 gem "jbuilder"
