@@ -8,6 +8,6 @@ Rails.application.load_tasks
 Rake::Task[:default].prerequisites.clear if Rake::Task.task_defined?(:default)
 
 desc "Run all checks"
-task default: %w[] do
+task default: %w[spec] do
   Thor::Base.shell.new.say_status :OK, "All checks passed!"
 end
