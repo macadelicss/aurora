@@ -19,6 +19,7 @@ group :development, :test do
 end
 
 group :development do
+  gem "pgcli-rails"
   gem "web-console"
 end
 
