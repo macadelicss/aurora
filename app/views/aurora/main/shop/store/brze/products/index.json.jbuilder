@@ -1,0 +1,1 @@
+json.array! @aurora_main_shop_store_brze_products, partial: "aurora_main_shop_store_brze_products/aurora_main_shop_store_brze_product", as: :aurora_main_shop_store_brze_product

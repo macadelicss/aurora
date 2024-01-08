@@ -1,0 +1,1 @@
+json.partial! "aurora_main_shop_store_products/aurora_main_shop_store_product", aurora_main_shop_store_product: @aurora_main_shop_store_product
