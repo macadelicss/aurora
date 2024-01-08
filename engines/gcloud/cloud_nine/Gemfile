@@ -1,0 +1,21 @@
+source "https://rubygems.org"
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+
+# Specify your gem's dependencies in cloud_nine.gemspec.
+gemspec
+
+gem "puma"
+
+gem "pg"
+
+gem "sprockets-rails"
+
+# Start debugger with binding.b [https://github.com/ruby/debug]
+# gem "debug", ">= 1.0.0"
+# gem "google-cloud-certificate_manager-v1", path: "../google-cloud-certificate_manager-v1"
+# gem "google-cloud-core", path: "../google-cloud-core"
+# gem "google-cloud-errors", path: "../google-cloud-errors"
+# gem "google-cloud-pubsub-v1", path: "../google-cloud-pubsub-v1"
+# gem "retriable", "~> 3.1"
+# gem "google-cloud-vision-v1", path: "../google-cloud-vision-v1"
+# gem "google-cloud-document_ai-v1", path: "../google-cloud-document_ai-v1"
