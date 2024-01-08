@@ -1,0 +1,402 @@
+<div class="ml-10 flex items-baseline space-x-4">
+  <%= link_to "Home", root_path, class: "text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500" %>
+  <!-- More navigation items here -->
+  <%= link_to 'About',     aurora_main_about_path,               class: "text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500"  %>
+  <%= link_to 'Contact',   aurora_main_contact_path,             class: "text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500"  %>
+  <%= link_to 'Pricing',   aurora_main_pricing_path,             class: "text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500"  %>
+  <%= link_to 'Blog',      aurora_main_docs_blogs_path,          class: "text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500"  %>
+  <%= link_to 'Shop',      aurora_main_shop_store_products_path, class: "text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500"  %>
+  <%= link_to 'Portfolio', aurora_portfolio_preview_path,        class: "text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500"  %>
+  <%= link_to 'Admin',     aurora_admin_dashboard_index_path, class: "text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500" %>
+</div>
+
+
+
+
+
+<nav class="bg-gray-800">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <!-- Left side: Logo and links -->
+
+      <div class="flex items-center">
+        <!-- Logo and navigation links here -->
+        <!-- Logo -->
+        <div class="flex-shrink-0">
+          <img class="h-7" src="https://brzee-bucket.nyc3.cdn.digitaloceanspaces.com/logo2.png" alt="Company name">
+        </div>
+        <div class="flex-shrink-0 pl-3.5">
+          <%= link_to "Aurora", root_path, class: "text-white font-bold underline decoration-sky-500" %>
+        </div>
+        <!-- Desktop Menu Centered -->
+        <div class="pl-20 hidden md:flex md:items-center md:justify-center flex-1">
+          <div class="ml-10 flex items-baseline space-x-4">
+            <%= link_to "Home", root_path, class: "text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500" %>
+            <!-- More navigation items here -->
+            <%= link_to 'About',     aurora_main_about_path,               class: "text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500"  %>
+            <%= link_to 'Contact',   aurora_main_contact_path,             class: "text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500"  %>
+            <%= link_to 'Pricing',   aurora_main_pricing_path,             class: "text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500"  %>
+            <%= link_to 'Blog',      aurora_main_docs_blogs_path,          class: "text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500"  %>
+            <%= link_to 'Shop',      aurora_main_shop_store_products_path, class: "text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500"  %>
+            <%= link_to 'Portfolio', aurora_portfolio_preview_path,        class: "text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500"  %>
+            <%= link_to 'Admin',     aurora_admin_dashboard_index_path, class: "text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500" %>
+          </div>
+          <div class="relative group">
+            <button class="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500">Aurora</button>
+            <div class="absolute hidden group-hover:block bg-gray-700 rounded-md shadow-lg z-10 w-96">
+              <div class="grid grid-cols-2 gap-4 p-4">
+                <div>
+                  <%= link_to 'Home', '#', class: "block px-4 py-2 text-lg semibold text-gray-100 hover:bg-gray-600 underline decoration-sky-500" %>
+                  <%= link_to 'About',     aurora_main_about_path,               class: "block px-4 py-2 text-sm text-white hover:bg-gray-600"  %>
+                  <%= link_to 'Contact',   aurora_main_contact_path,             class: "block px-4 py-2 text-sm text-white hover:bg-gray-600"  %>
+                  <%= link_to 'Pricing',   aurora_main_pricing_path,             class: "block px-4 py-2 text-sm text-white hover:bg-gray-600"  %>
+                  <%= link_to 'Blog',      aurora_main_docs_blogs_path,          class: "block px-4 py-2 text-sm text-white hover:bg-gray-600"  %>
+                  <%= link_to 'Shop',      aurora_main_shop_store_products_path, class: "block px-4 py-2 text-sm text-white hover:bg-gray-600"  %>
+                  <!-- More links/columns here -->
+                </div>
+                <div>
+                  <%= link_to 'Brze', '#', class: "block px-4 py-2 text-lg semibold text-gray-100 hover:bg-gray-600 underline decoration-sky-500" %>
+                  <%= link_to 'Abel',     aurora_main_about_path,               class: "block px-4 py-2 text-sm text-white hover:bg-gray-600"  %>
+                  <%= link_to 'Bloom',   aurora_main_contact_path,             class: "block px-4 py-2 text-sm text-white hover:bg-gray-600"  %>
+                  <%= link_to 'Nebulous',   aurora_main_pricing_path,             class: "block px-4 py-2 text-sm text-white hover:bg-gray-600"  %>
+                  <%= link_to 'Moon Walker',      aurora_main_docs_blogs_path,          class: "block px-4 py-2 text-sm text-white hover:bg-gray-600"  %>
+                  <%= link_to 'Breeze',      aurora_main_shop_store_products_path, class: "block px-4 py-2 text-sm text-white hover:bg-gray-600"  %>
+                  <!-- More links/columns here -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Mega Menu -->
+          <div class="relative group">
+            <button class="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500">Thnk</button>
+            <div class="absolute hidden group-hover:block bg-gray-700 rounded-md shadow-lg z-10 w-96">
+              <div class="grid grid-cols-3 gap-4 p-4">
+                <div>
+                  <%= link_to 'Thnk:', '#', class: "block px-4 py-2 text-lg semibold text-gray-100 hover:bg-gray-600 underline decoration-sky-500" %>
+                  <%= link_to 'Thnk: About It', 'https://transmit-js.fly.dev', class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                  <%= link_to 'Nutrtion Label Generator', aurora_thnk_prod_dev_nutri_gen_preview_index_path, class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                  <%= link_to 'QR Code Generator', aurora_thnk_prod_dev_qr_gen_preview_index_path, class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                  <%= link_to 'Bar Code Generator', aurora_thnk_prod_dev_barcode_gen_preview_index_path, class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                  <!-- More links/columns here -->
+                </div>
+                <div>
+                  <%= link_to 'Thnk: Tools', '#', class: "block px-4 py-2 text-lg semibold text-gray-100 hover:bg-gray-600 underline decoration-sky-500" %>
+                  <%= link_to 'Thnk: About It', 'https://transmit-js.fly.dev', class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                  <%= link_to 'Nutrtion Label Generator', aurora_thnk_prod_dev_nutri_gen_preview_index_path, class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                  <%= link_to 'QR Code Generator', aurora_thnk_prod_dev_qr_gen_preview_index_path, class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                  <%= link_to 'Bar Code Generator', aurora_thnk_prod_dev_barcode_gen_preview_index_path, class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                  <!-- More links/columns here -->
+                </div>
+                <div>
+                  <%= link_to 'Coming Soon', '#', class: "block px-4 py-2 text-lg semibold text-gray-100 hover:bg-gray-600 underline decoration-sky-500" %>
+                  <%= link_to 'Family Ink', '#', class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                  <%= link_to 'Work Brew', '#', class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                  <%= link_to 'Dogs Rule', '#', class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                  <%= link_to 'Thnk: Wellness', aurora_thnk_thnk_wellness_assessments_preview_index_path, class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                  <!-- More links/columns here -->
+                </div>
+
+                <!-- Add more columns as needed -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right side: Search form (visible on desktop) -->
+      <div class="hidden md:flex flex-shrink-0">
+        <%= form_with url: "/search", method: :get, class: "flex items-center" do |form| %>
+          <%= form.label :query, "Search for:", class: "sr-only" %>
+          <%= form.text_field :query, class: "text-black" %>
+          <%= form.submit "Search", class: "ml-2" %>
+        <% end %>
+      </div>
+
+      <!-- Hamburger Menu Button (visible on mobile) -->
+      <div class="flex md:hidden">
+        <button onclick="toggleNavbar()" class="text-gray-300 hover:text-white focus:outline-none focus:text-white">
+          <!-- Hamburger Icon -->
+          <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu (includes search form for mobile) -->
+
+  <div class="md:hidden hidden" id="mobile-menu">
+    <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+      <!-- Mobile navigation items here -->
+      <div class="md:hidden" id="mobile-menu">
+        <div class="underline decoration-sky-500"><pre class="overflow-hidden decoration-sky-500">______________________________________________________</pre></div>
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <%= link_to "Home", root_path, class: "text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium underline decoration-sky-500" %>
+          <%= link_to 'About',     aurora_main_about_path,          class: "text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"  %>
+          <%= link_to 'Contact',   aurora_main_contact_path,        class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"  %>
+          <%= link_to 'Pricing',   aurora_main_pricing_path,        class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"  %>
+          <%= link_to 'Blog',      aurora_main_docs_blogs_path,      class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"  %>
+          <%= link_to 'Shop',      aurora_main_shop_store_products_path,          class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"  %>
+          <%= link_to 'Portfolio', aurora_portfolio_preview_path,  class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <!-- More mobile navigation items here -->
+        </div>
+        <div class="underline decoration-sky-500"><pre class="overflow-hidden decoration-sky-500">______________________________________________________</pre></div>
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <%= link_to "Thnk:", root_path, class: "text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium underline decoration-sky-500" %>
+          <%= link_to 'Thnk: About It', 'https://transmit-js.fly.dev', class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <%= link_to 'Nutr. Label Gen', aurora_thnk_prod_dev_nutri_gen_preview_index_path, class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <%= link_to 'QR Gen', aurora_thnk_prod_dev_qr_gen_preview_index_path, class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <%= link_to 'Bar Code Gen', aurora_thnk_prod_dev_barcode_gen_preview_index_path, class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <!-- More mobile navigation items here -->
+        </div>
+        <div class="underline decoration-sky-500"><pre class="overflow-hidden decoration-sky-500">______________________________________________________</pre></div>
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <%= link_to "Thnk: Tools", root_path, class: "text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium underline decoration-sky-500" %>
+          <%= link_to 'Cloud Nine', 'https://transmit-js.fly.dev', class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <%= link_to 'Ocean Spray', aurora_thnk_prod_dev_nutri_gen_preview_index_path, class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <%= link_to 'Ochoa', aurora_thnk_prod_dev_qr_gen_preview_index_path, class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <%= link_to 'Ether', aurora_thnk_prod_dev_barcode_gen_preview_index_path, class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <!-- More mobile navigation items here -->
+        </div>
+        <div class="underline decoration-sky-500"><pre class="overflow-hidden decoration-sky-500">______________________________________________________</pre></div>
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <%= link_to "Coming Soon", root_path, class: "text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium underline decoration-sky-500" %>
+          <%= link_to 'Family Ink', 'https://transmit-js.fly.dev', class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <%= link_to 'Work Brew', aurora_thnk_prod_dev_nutri_gen_preview_index_path, class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <%= link_to 'Dogs Rule', aurora_thnk_prod_dev_qr_gen_preview_index_path, class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <%= link_to 'Thnk: Well', aurora_thnk_prod_dev_barcode_gen_preview_index_path, class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <!-- More mobile navigation items here -->
+        </div>
+        <div class="underline decoration-sky-500"><pre class="overflow-hidden decoration-sky-500">______________________________________________________</pre></div>
+      </div>
+      <!-- Mobile Search Form -->
+      <%= form_with url: "/search", method: :get, class: "flex items-center p-2 text-white semibold underline decoration-sky-500" do |form| %>
+        <%= form.label :query, "Search for:", class: "sr-only text-white semibold underline decoration-sky-500" %>
+        <%= form.text_field :query, class: "text-white semibold underline decoration-sky-500 text-black flex-grow mr-2" %>
+        <%= form.submit "Search", class: "text-white semibold underline decoration-sky-500" %>
+      <% end %>
+    </div>
+  </div>
+</nav>
+<div class="pb-2"></div>
+<script>
+  function toggleNavbar() {
+    var menu = document.getElementById("mobile-menu");
+    if (menu.classList.contains("hidden")) {
+      menu.classList.remove("hidden");
+    } else {
+      menu.classList.add("hidden");
+    }
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="bg-gray-800">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <!-- Left side: Logo and links -->
+
+      <div class="flex items-center">
+        <!-- Logo and navigation links here -->
+        <!-- Logo -->
+        <div class="flex-shrink-0">
+          <img class="h-7" src="https://brzee-bucket.nyc3.cdn.digitaloceanspaces.com/logo2.png" alt="Company name">
+        </div>
+        <div class="flex-shrink-0 pl-3.5">
+          <%= link_to "Aurora", root_path, class: "text-white font-bold underline decoration-sky-500" %>
+        </div>
+        <!-- Desktop Menu Centered -->
+
+
+
+        <div class="pl-20 hidden md:flex md:items-center md:justify-center flex flex-1">
+          <div class="ml-10 flex items-baseline space-x-4">
+            <div class="relative group">
+              <button class="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500">Aurora</button>
+              <div class="absolute hidden group-hover:block bg-gray-700 rounded-md shadow-lg z-10 w-96">
+                <div class="grid grid-cols-2 gap-4 p-4">
+                  <div>
+                    <%= link_to 'Home', '#', class: "block px-4 py-2 text-lg semibold text-gray-100 hover:bg-gray-600 underline decoration-sky-500" %>
+                    <%= link_to 'About',     aurora_main_about_path,               class: "block px-4 py-2 text-sm text-white hover:bg-gray-600"  %>
+                    <%= link_to 'Contact',   aurora_main_contact_path,             class: "block px-4 py-2 text-sm text-white hover:bg-gray-600"  %>
+                    <%= link_to 'Pricing',   aurora_main_pricing_path,             class: "block px-4 py-2 text-sm text-white hover:bg-gray-600"  %>
+                    <%= link_to 'Blog',      aurora_main_docs_blogs_path,          class: "block px-4 py-2 text-sm text-white hover:bg-gray-600"  %>
+                    <%= link_to 'Shop',      aurora_main_shop_store_products_path, class: "block px-4 py-2 text-sm text-white hover:bg-gray-600"  %>
+                    <!-- More links/columns here -->
+                  </div>
+                  <div>
+                    <%= link_to 'Brze', '#', class: "block px-4 py-2 text-lg semibold text-gray-100 hover:bg-gray-600 underline decoration-sky-500" %>
+                    <%= link_to 'Abel',     aurora_main_about_path,               class: "block px-4 py-2 text-sm text-white hover:bg-gray-600"  %>
+                    <%= link_to 'Bloom',   aurora_main_contact_path,             class: "block px-4 py-2 text-sm text-white hover:bg-gray-600"  %>
+                    <%= link_to 'Nebulous',   aurora_main_pricing_path,             class: "block px-4 py-2 text-sm text-white hover:bg-gray-600"  %>
+                    <%= link_to 'Moon Walker',      aurora_main_docs_blogs_path,          class: "block px-4 py-2 text-sm text-white hover:bg-gray-600"  %>
+                    <%= link_to 'Breeze',      aurora_main_shop_store_products_path, class: "block px-4 py-2 text-sm text-white hover:bg-gray-600"  %>
+                    <!-- More links/columns here -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Mega Menu -->
+            <div class="relative group">
+              <button class="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500">Thnk</button>
+              <div class="absolute hidden group-hover:block bg-gray-700 rounded-md shadow-lg z-10 w-96">
+                <div class="grid grid-cols-3 gap-4 p-4">
+                  <div>
+                    <%= link_to 'Thnk:', '#', class: "block px-4 py-2 text-lg semibold text-gray-100 hover:bg-gray-600 underline decoration-sky-500" %>
+                    <%= link_to 'Thnk: About It', 'https://transmit-js.fly.dev', class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                    <%= link_to 'Nutrtion Label Generator', aurora_thnk_prod_dev_nutri_gen_preview_index_path, class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                    <%= link_to 'QR Code Generator', aurora_thnk_prod_dev_qr_gen_preview_index_path, class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                    <%= link_to 'Bar Code Generator', aurora_thnk_prod_dev_barcode_gen_preview_index_path, class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                    <!-- More links/columns here -->
+                  </div>
+                  <div>
+                    <%= link_to 'Thnk: Tools', '#', class: "block px-4 py-2 text-lg semibold text-gray-100 hover:bg-gray-600 underline decoration-sky-500" %>
+                    <%= link_to 'Thnk: About It', 'https://transmit-js.fly.dev', class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                    <%= link_to 'Nutrtion Label Generator', aurora_thnk_prod_dev_nutri_gen_preview_index_path, class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                    <%= link_to 'QR Code Generator', aurora_thnk_prod_dev_qr_gen_preview_index_path, class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                    <%= link_to 'Bar Code Generator', aurora_thnk_prod_dev_barcode_gen_preview_index_path, class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                    <!-- More links/columns here -->
+                  </div>
+                  <div>
+                    <%= link_to 'Coming Soon', '#', class: "block px-4 py-2 text-lg semibold text-gray-100 hover:bg-gray-600 underline decoration-sky-500" %>
+                    <%= link_to 'Family Ink', '#', class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                    <%= link_to 'Work Brew', '#', class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                    <%= link_to 'Dogs Rule', '#', class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                    <%= link_to 'Thnk: Wellness', aurora_thnk_thnk_wellness_assessments_preview_index_path, class: "block px-4 py-2 text-sm text-gray-300 hover:bg-gray-600" %>
+                    <!-- More links/columns here -->
+                  </div>
+
+                  <!-- Add more columns as needed -->
+                </div>
+              </div>
+            </div>
+            <%= link_to 'Portfolio', aurora_portfolio_preview_path,        class: "text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500"  %>
+
+            <%= link_to 'Admin', aurora_admin_dashboard_index_path, class: "text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500" %>
+            <%= link_to 'Brze',     aurora_main_about_path,               class: "text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium underline decoration-sky-500"  %>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Right side: Search form (visible on desktop) -->
+      <div class="hidden md:flex flex-shrink-0">
+        <%= form_with url: "/search", method: :get, class: "flex items-center" do |form| %>
+          <%= form.label :query, "Search for:", class: "sr-only" %>
+          <%= form.text_field :query, class: "text-black" %>
+          <%= form.submit "Search", class: "ml-2" %>
+        <% end %>
+      </div>
+
+      <!-- Hamburger Menu Button (visible on mobile) -->
+      <div class="flex md:hidden">
+        <button onclick="toggleNavbar()" class="text-gray-300 hover:text-white focus:outline-none focus:text-white">
+          <!-- Hamburger Icon -->
+          <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu (includes search form for mobile) -->
+
+  <div class="md:hidden hidden" id="mobile-menu">
+    <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+      <!-- Mobile navigation items here -->
+      <div class="md:hidden" id="mobile-menu">
+        <div class="underline decoration-sky-500"><pre class="overflow-hidden decoration-sky-500">______________________________________________________</pre></div>
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <%= link_to "Home", root_path, class: "text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium underline decoration-sky-500" %>
+          <%= link_to 'About',     aurora_main_about_path,          class: "text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"  %>
+          <%= link_to 'Contact',   aurora_main_contact_path,        class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"  %>
+          <%= link_to 'Pricing',   aurora_main_pricing_path,        class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"  %>
+          <%= link_to 'Blog',      aurora_main_docs_blogs_path,      class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"  %>
+          <%= link_to 'Shop',      aurora_main_shop_store_products_path,          class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"  %>
+          <%= link_to 'Portfolio', aurora_portfolio_preview_path,  class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <!-- More mobile navigation items here -->
+        </div>
+        <div class="underline decoration-sky-500"><pre class="overflow-hidden decoration-sky-500">______________________________________________________</pre></div>
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <%= link_to "Thnk:", root_path, class: "text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium underline decoration-sky-500" %>
+          <%= link_to 'Thnk: About It', 'https://transmit-js.fly.dev', class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <%= link_to 'Nutr. Label Gen', aurora_thnk_prod_dev_nutri_gen_preview_index_path, class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <%= link_to 'QR Gen', aurora_thnk_prod_dev_qr_gen_preview_index_path, class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <%= link_to 'Bar Code Gen', aurora_thnk_prod_dev_barcode_gen_preview_index_path, class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <!-- More mobile navigation items here -->
+        </div>
+        <div class="underline decoration-sky-500"><pre class="overflow-hidden decoration-sky-500">______________________________________________________</pre></div>
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <%= link_to "Thnk: Tools", root_path, class: "text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium underline decoration-sky-500" %>
+          <%= link_to 'Cloud Nine', 'https://transmit-js.fly.dev', class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <%= link_to 'Ocean Spray', aurora_thnk_prod_dev_nutri_gen_preview_index_path, class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <%= link_to 'Ochoa', aurora_thnk_prod_dev_qr_gen_preview_index_path, class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <%= link_to 'Ether', aurora_thnk_prod_dev_barcode_gen_preview_index_path, class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <!-- More mobile navigation items here -->
+        </div>
+        <div class="underline decoration-sky-500"><pre class="overflow-hidden decoration-sky-500">______________________________________________________</pre></div>
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <%= link_to "Coming Soon", root_path, class: "text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium underline decoration-sky-500" %>
+          <%= link_to 'Family Ink', 'https://transmit-js.fly.dev', class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <%= link_to 'Work Brew', aurora_thnk_prod_dev_nutri_gen_preview_index_path, class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <%= link_to 'Dogs Rule', aurora_thnk_prod_dev_qr_gen_preview_index_path, class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <%= link_to 'Thnk: Well', aurora_thnk_prod_dev_barcode_gen_preview_index_path, class: "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" %>
+          <!-- More mobile navigation items here -->
+        </div>
+        <div class="underline decoration-sky-500"><pre class="overflow-hidden decoration-sky-500">______________________________________________________</pre></div>
+      </div>
+      <!-- Mobile Search Form -->
+      <%= form_with url: "/search", method: :get, class: "flex items-center p-2 text-white semibold underline decoration-sky-500" do |form| %>
+        <%= form.label :query, "Search for:", class: "sr-only text-white semibold underline decoration-sky-500" %>
+        <%= form.text_field :query, class: "text-white semibold underline decoration-sky-500 text-black flex-grow mr-2" %>
+        <%= form.submit "Search", class: "text-white semibold underline decoration-sky-500" %>
+      <% end %>
+    </div>
+  </div>
+</nav>
+<div class="pb-2"></div>
+<script>
+  function toggleNavbar() {
+    var menu = document.getElementById("mobile-menu");
+    if (menu.classList.contains("hidden")) {
+      menu.classList.remove("hidden");
+    } else {
+      menu.classList.add("hidden");
+    }
+  }
+</script>

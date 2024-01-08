@@ -1,0 +1,142 @@
+<!--
+  This example requires some changes to your config:
+
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+<ul role="list" class="pt-20 pb-20 grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
+  <li class="relative">
+    <div class="group aspect-h-7 aspect-w-10 block w-full overflow-hidden rounded-lg bg-white-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
+      <img src="https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80" alt="" class="pointer-events-none object-cover group-hover:opacity-75 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+      <button type="button" class="absolute inset-0 focus:outline-none">
+        <span class="sr-only">View details for IMG_4985.HEIC</span>
+      </button>
+    </div>
+    <p class="pointer-events-none mt-2 block truncate text-sm font-medium text-white">IMG_4985.HEIC</p>
+    <p class="pointer-events-none block text-sm font-medium text-white">3.9 MB</p>
+  </li>
+
+  <!-- More files... -->
+  <li class="relative">
+    <div class="group aspect-h-7 aspect-w-10 block w-full overflow-hidden rounded-lg bg-white-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
+      <img src="https://storage.googleapis.com/pub-bucket-1/r/flower_child.png" alt="" class="pointer-events-none object-cover group-hover:opacity-75">
+      <button type="button" class="absolute inset-0 focus:outline-none">
+        <span class="sr-only">View details for IMG_4985.HEIC</span>
+      </button>
+    </div>
+    <p class="pointer-events-none mt-2 block truncate text-sm font-medium text-white">IMG_4985.HEIC</p>
+    <p class="pointer-events-none block text-sm font-medium text-white">3.9 MB</p>
+  </li>
+  <li class="relative">
+    <div class="group aspect-h-7 aspect-w-10 block w-full overflow-hidden rounded-lg bg-white-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
+      <img src="https://storage.googleapis.com/pub-bucket-1/uno_nobg.png" alt="" class="pointer-events-none object-cover group-hover:opacity-75">
+      <button type="button" class="absolute inset-0 focus:outline-none">
+        <span class="sr-only">View details for IMG_4985.HEIC</span>
+      </button>
+    </div>
+    <p class="pointer-events-none mt-2 block truncate text-sm font-medium text-white">IMG_4985.HEIC</p>
+    <p class="pointer-events-none block text-sm font-medium text-white">3.9 MB</p>
+  </li>
+
+
+
+  <li class="relative">
+    <div class="group aspect-h-7 aspect-w-10 block w-full overflow-hidden rounded-lg bg-white-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
+      <img src="https://storage.googleapis.com/pub-bucket-1/image_0010.png" alt="" class="pointer-events-none object-cover group-hover:opacity-75">
+
+      <button type="button" class="absolute inset-0 focus:outline-none">
+        <span class="sr-only">View details for IMG_4985.HEIC</span>
+      </button>
+    </div>
+
+    <p class="pointer-events-none mt-2 block truncate text-sm font-medium text-white">Upload</p>
+    <p class="pointer-events-none block text-sm font-medium text-white">3.9 MB</p>
+  </li>
+
+
+
+  <li class="relative">
+    <div class="group aspect-h-7 aspect-w-10 block w-full overflow-hidden rounded-lg bg-white-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
+      <img src="https://storage.googleapis.com/pub-bucket-1/ART%20FOR%20JACOB%2021-4013.png" alt="" class="pointer-events-none object-cover group-hover:opacity-75">
+
+      <button type="button" class="absolute inset-0 focus:outline-none">
+        <span class="sr-only">View details for IMG_4985.HEIC</span>
+      </button>
+    </div>
+
+    <p class="pointer-events-none mt-2 block truncate text-sm font-medium text-white">Upload</p>
+    <p class="pointer-events-none block text-sm font-medium text-white">3.9 MB</p>
+  </li>
+
+
+
+  <li class="relative">
+    <div class="group aspect-h-7 aspect-w-10 block w-full overflow-hidden rounded-lg bg-white-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
+      <img src="https://storage.googleapis.com/pub-bucket-1/cabell__I_am_therefore_I_Think._Clouds_97e16ded-a7bc-4d5c-81ec-d13d3ad7d03f.png" alt="" class="rounded-lg hover:brightness-110 hover:saturate-135 transition duration-300">
+
+      <button type="button" class="absolute inset-0 focus:outline-none">
+        <span class="sr-only">View details for IMG_4985.HEIC</span>
+      </button>
+    </div>
+
+    <p class="pointer-events-none mt-2 block truncate text-sm font-medium text-white">Upload</p>
+    <p class="pointer-events-none block text-sm font-medium text-white">3.9 MB</p>
+  </li>
+
+
+</ul>
+
+
+
+<div class="flex items-center justify-center py-4 md:py-8 flex-wrap">
+  <button type="button" class="text-blue-700 hover:text-white border border-blue-600 bg-white hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:bg-gray-900 dark:focus:ring-blue-800">All categories</button>
+  <button type="button" class="text-gray-900 border border-white hover:border-gray-200 dark:border-gray-900 dark:bg-gray-900 dark:hover:border-gray-700 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:text-white dark:focus:ring-gray-800">Shoes</button>
+  <button type="button" class="text-gray-900 border border-white hover:border-gray-200 dark:border-gray-900 dark:bg-gray-900 dark:hover:border-gray-700 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:text-white dark:focus:ring-gray-800">Bags</button>
+  <button type="button" class="text-gray-900 border border-white hover:border-gray-200 dark:border-gray-900 dark:bg-gray-900 dark:hover:border-gray-700 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:text-white dark:focus:ring-gray-800">Electronics</button>
+  <button type="button" class="text-gray-900 border border-white hover:border-gray-200 dark:border-gray-900 dark:bg-gray-900 dark:hover:border-gray-700 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:text-white dark:focus:ring-gray-800">Gaming</button>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+  <div>
+    <img class="h-auto max-w-full rounded-lg hover:brightness-110 hover:saturate-135 transition duration-300" src="https://storage.googleapis.com/pub-bucket-1/cabell__I_am_therefore_I_Think._Clouds_97e16ded-a7bc-4d5c-81ec-d13d3ad7d03f.png" alt="">
+  </div>
+  <div>
+    <img class="h-auto max-w-full rounded-lg hover:brightness-110 hover:saturate-135 transition duration-300" src="https://storage.googleapis.com/pub-bucket-1/ART%20FOR%20JACOB%2021-4013.png" alt="">
+  </div>
+  <div>
+    <img class="h-auto max-w-full rounded-lg hover:brightness-110 hover:saturate-135 transition duration-300" src="https://storage.googleapis.com/pub-bucket-1/image_0010.png" alt="">
+  </div>
+  <div>
+    <img class="h-auto max-w-full rounded-lg hover:brightness-110 hover:saturate-135 transition duration-300" src="https://storage.googleapis.com/pub-bucket-1/r/flower_child.png" alt="">
+  </div>
+  <div>
+    <img class="h-auto max-w-full rounded-lg hover:brightness-110 hover:saturate-135 transition duration-300" src="https://storage.googleapis.com/pub-bucket-1/uno_nobg.png" alt="">
+  </div>
+  <div>
+    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="">
+  </div>
+
+  <div>
+    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg" alt="">
+  </div>
+  <div>
+    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg" alt="">
+  </div>
+  <div>
+    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-9.jpg" alt="">
+  </div>
+  <div>
+    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg" alt="">
+  </div>
+  <div>
+    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg" alt="">
+  </div>
+</div>
+
