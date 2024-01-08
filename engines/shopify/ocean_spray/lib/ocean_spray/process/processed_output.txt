@@ -1,0 +1,277 @@
+underscore Count = 22
+ Line 1: Fungus Farm_Mushroom Curiosity Charm
+ Line 12: Fungus Farm_Mushroom Curiosity Jar Real Fungi Curio 2.75" # 2123
+ Line 25: Fungus Farm_Mushroom Curiosity Jar Real Fungi Curio 2.75" # 2143
+ Line 37: VB&CO Designs_ Grateful Boutique Necklace Boutique Salon
+ Line 47: VB&CO Designs_ Crystal Long Necklace Boutique Salon Fashion Jewelry
+ Line 58: VB&CO Designs_ Hand Casted Swarovski Layering Boutique Salon Necklace Spa
+ Line 71: VB&CO_Lord’s Prayer Necklace Religious Christian Vintage  God
+ Line 95: Ibride_8-piece Dinner Set - Yuan Narcisse
+ Line 98: The Ibride_8-piece Dinner Set in the Yuan Narcisse design is a true work of art, designed by Rachel and Benoît Convers for Ibride. Inspired by the traditional Chinese Yuan vase, this stackable tableware set consists of bowls and salad bowls. At first glance, the design may seem simple, but upon closer inspection, it reveals a deeper story within.
+ Line 101: Add a touch of elegance and history to your dining table with the Ibride_8-piece Dinner Set - Yuan Narcisse.
+ Line 111: Ibride_8-piece Dinner Set - Yuan Osorio
+ Line 117: Experience the perfect balance of art and functionality with the Ibride_8-piece Dinner Set - Yuan Osorio and let it bring an evocative touch to your dining experience.
+ Line 127: Ibride_Bedside Table - Baby Alpaca Chic Gold
+ Line 130: The Ibride_Bedside Table - Baby Alpaca Chic Gold is the epitome of elegance and functionality. Made in France, this exquisite piece of furniture has a refined coat that gives it the appearance of a miniature boudoir on legs. The chic gold fringes add a touch of sophistication making this piece truly versatile allowing it to adapt to any interior design style, serving as a bedside table, bar cabinet, or storage console.
+ Line 132: The material used for the fringes is viscose, which adds an element of luxury and durability to this piece. With its unique design and impeccable craftsmanship, the Ibride_Bedside Table - Baby Alpaca Chic Gold is sure to elevate the look and feel of your living space.
+ Line 146: Kitsch_Satin King Pillowcase
+ Line 179: Tigermilk Ceramics_Banana Cake Plate
+ Line 197: Andaluca_Glass Jar of 60 Wooden Matches
+ Line 208: Andaluca_Holiday Memories Botanical Reed Diffuser
+ Line 229: Andaluca_Vetiver & Oak 14 oz. Swirl Glass Candle
+ Line 268: Napa Home & Garden_Arbre Vase Small
+ Line 282: Napa Home & Garden_Ziva Console Tables, Set of 2
+
+pipe Count = 0
+
+starts_with Count = 0
+
+bullet Count = 19
+ Line 53: •  Made in United States
+ Line 66: •  Made in United States
+ Line 79: •  Made in United States
+ Line 89: •  Made in United States
+ Line 136: •  Made in France
+ Line 137: •  Fabric: HPL/fringes: viscose
+ Line 156: •  Dimensions: 36 x 19 in (91.4 x 48.3 cm)
+ Line 189: •  Made in United States
+ Line 190: •  Weight: 3 lb (1.36 kg)
+ Line 191: •  Dimensions: Approximately 12 x 12 x 1 in (30.5 x 30.5 x 2.5 cm)
+ Line 222: •  Made in United States
+ Line 243: •  Made in United States
+ Line 260: •  Made in United States
+ Line 274: •  Made in India
+ Line 275: •  Weight: 11.66 lb (5.29 kg)
+ Line 276: •  Dimensions: 8.8 x 8.8 x 14.3 in (22.2 x 22.2 x 36.2 cm)
+ Line 289: •  Made in India
+ Line 290: •  Weight: 12.8 oz (362.87 g)
+ Line 291: •  Dimensions: 33.3 x 10.5 x 31 in (84.5 x 26.7 x 78.7 cm)
+
+dash Count = 77
+ Line 2: Items - 1
+ Line 3: Category: Fashion -> Jewelry
+ Line 4: A great gift for mushroom foragers and nature enthusiasts, this beautiful handmade treasure contains real fungi, preserved forever inside a 1-inch wide by .25-inch deep resin pendant, with a 20-inch chain and a lobster clasp.
+ Line 5: Each mushroom foraged or grown is carefully dried and stabilized with clear non-toxic resin to add a natural flair to any jewelry or curiosity collection.
+ Line 13: Items - 1
+ Line 14: Category: Home -> Treasures -> Decorative Objects
+ Line 16: This beautiful handmade treasure contains real fungi, preserved forever inside a 1-inch wide by 2.75-inch tall glass display tube.
+ Line 17: Each mushroom foraged or grown is carefully dried and stabilized with clear non-toxic resin, and then set in place for permanent display.
+ Line 26: Items - 1
+ Line 27: Category: Home -> Treasures -> Decorative Objects
+ Line 28: This beautiful handmade treasure contains real fungi, preserved forever inside a 1-inch wide by 2.75-inch tall glass display tube.
+ Line 29: Each mushroom foraged or grown is carefully dried and stabilized with clear non-toxic resin, and then set in place for permanent display.
+ Line 38: Items -
+ Line 39: Category: Fashion -> Jewelry -> Necklace
+ Line 40: Grateful. Express your gratitude with this beautiful boutique necklace of non-tarnish, light gold Grateful emblem on a 17-inch chain.
+ Line 48: Items - 1
+ Line 49: Category: Category: Fashion -> Jewelry -> Necklace
+ Line 59: Items - 1 - 16” chain
+ Line 60: 1 - 17” chain
+ Line 61: Category: Category: Fashion -> Jewelry -> Necklace
+ Line 72: Items - 1
+ Line 73: Category: Fashion -> Jewelry -> Necklace
+ Line 74: Health -> Wellness -> Spiritual
+ Line 76: This beautiful gold pendant is hand casted from an actual Vintage religious medallion. Reversible, it features a cross on one side and the Lord's prayer on the other. It’s connected to a genuine piece of crystal quartz which is known as the “healing crystal” and a 32” non-tarnishing Gold chain. This beautiful and meaningful necklace makes for a great gift!
+ Line 85: Items - 1
+ Line 86: Category: Category: Fashion -> Jewelry -> Necklace
+ Line 87: Genuine baroque freshwater pearls with tiny clear crystals. Features a beautiful hand-cast toggle and reversible bee/crown pendant with an 18” chain.
+ Line 95: Ibride_8-piece Dinner Set - Yuan Narcisse
+ Line 96: Items - 1
+ Line 97: Category: Home -> Indoor -> Kitchen and Tabletops
+ Line 98: The Ibride_8-piece Dinner Set in the Yuan Narcisse design is a true work of art, designed by Rachel and Benoît Convers for Ibride. Inspired by the traditional Chinese Yuan vase, this stackable tableware set consists of bowls and salad bowls. At first glance, the design may seem simple, but upon closer inspection, it reveals a deeper story within.
+ Line 101: Add a touch of elegance and history to your dining table with the Ibride_8-piece Dinner Set - Yuan Narcisse.
+ Line 111: Ibride_8-piece Dinner Set - Yuan Osorio
+ Line 112: Items - 1
+ Line 113: Category: Home -> Indoor -> Kitchen and Tabletops
+ Line 114: The Faux-Semblants collection by Ibride, designed by Rachel and Benoît Convers, is a beautiful representation of the harmonious blend between art and design. The Yuan Osorio stackable tableware set consists of bowls and salad bowls that are not only functional but also tell a captivating story.
+ Line 117: Experience the perfect balance of art and functionality with the Ibride_8-piece Dinner Set - Yuan Osorio and let it bring an evocative touch to your dining experience.
+ Line 127: Ibride_Bedside Table - Baby Alpaca Chic Gold
+ Line 128: Items - 1
+ Line 129: Category: Home -> Treasures -> Furniture
+ Line 130: The Ibride_Bedside Table - Baby Alpaca Chic Gold is the epitome of elegance and functionality. Made in France, this exquisite piece of furniture has a refined coat that gives it the appearance of a miniature boudoir on legs. The chic gold fringes add a touch of sophistication making this piece truly versatile allowing it to adapt to any interior design style, serving as a bedside table, bar cabinet, or storage console.
+ Line 131: Apart from its aesthetic appeal, this bedside table also serves a practical purpose. Its hidden storage space allows you to discreetly store your personal belongings, keeping your room clutter-free and organized.
+ Line 132: The material used for the fringes is viscose, which adds an element of luxury and durability to this piece. With its unique design and impeccable craftsmanship, the Ibride_Bedside Table - Baby Alpaca Chic Gold is sure to elevate the look and feel of your living space.
+ Line 147: Items - 4 -Blush
+ Line 148: 4 - Charcoal
+ Line 149: 4 - Ivory
+ Line 150: Category: Health -> Physical Wellness
+ Line 151: KITSCH Satin Pillowcases are your newest nighttime necessity. Their soft satin fabrication won't agitate your strands while you sleep, allowing you to wake up frizz free and ready to take on the day! Get a good night’s rest with these hydrating, anti-aging pillowcases!
+ Line 153: Each package includes 1 king-size pillowcase. 36"x19"
+ Line 163: The Pillow Eye Mask - Charcoal
+ Line 164: Items - 2
+ Line 165: Category: Health -> Physical Wellness
+ Line 168: -Elevate your beauty rest with the luxury of satin
+ Line 169: -Pillowy-soft innovative design
+ Line 170: -Blocks light for a deep & restful sleep
+ Line 171: -Ruched elastic stretches for maximum comfort
+ Line 172: -Plush material gentle on lashes & brows
+ Line 173: -Gentle on all skin types
+ Line 180: Items - 3
+ Line 181: Category: Home -> Indoor -> Kitchen and Tabletop
+ Line 185: Due to the nature of handmade items, there may be some variation in size, color, general appearance, etc. Measurements and photos provide a general guideline only. While the plate is food-safe and dishwasher-safe, and washing is recommended.
+ Line 198: Items - 6
+ Line 199: Category: Health -> Apothecary -> Aromatics
+ Line 209: Items -
+ Line 210: Category: Health -> Apothecary -> Aromatics
+ Line 212: Always hand-filled in California
+ Line 230: Items - 4
+ Line 231: Category: Health -> Apothecary -> Aromatics
+ Line 251: Items - 3 Black
+ Line 255: Category: Fashion -> Accessories -> Wallets
+ Line 261: Material - Aluminum
+ Line 262: Size - 3.38”L x 2.12"W x 0.23"H
+ Line 269: Items - 1
+ Line 270: Category: Home -> Indoor -> Home Accents
+ Line 283: Items - 1
+ Line 284: Category: Home -> Treasures -> Furniture
+ Line 286: Final sale. High-value items are not returnable
+
+mult Count = 13
+ Line 62: This tiny clear Swarovski crystal pendant is hand casted hand casted in antique gold. Vintage look. Non tarnish gold chain. Great layering piece!
+ Line 76: This beautiful gold pendant is hand casted from an actual Vintage religious medallion. Reversible, it features a cross on one side and the Lord's prayer on the other. It’s connected to a genuine piece of crystal quartz which is known as the “healing crystal” and a 32” non-tarnishing Gold chain. This beautiful and meaningful necklace makes for a great gift!
+ Line 138: Weight: 27.34 lb (12.4 kg)
+ Line 151: KITSCH Satin Pillowcases are your newest nighttime necessity. Their soft satin fabrication won't agitate your strands while you sleep, allowing you to wake up frizz free and ready to take on the day! Get a good night’s rest with these hydrating, anti-aging pillowcases!
+ Line 156: •  Dimensions: 36 x 19 in (91.4 x 48.3 cm)
+ Line 166: Kitsch Pillow Eye Masks are your newest nighttime necessity. The luxurious satin fabrication is designed to care for your skin, and the padded softness of the material gives you a comfortable night's rest, all while looking chic!
+ Line 190: •  Weight: 3 lb (1.36 kg)
+ Line 191: •  Dimensions: Approximately 12 x 12 x 1 in (30.5 x 30.5 x 2.5 cm)
+ Line 275: •  Weight: 11.66 lb (5.29 kg)
+ Line 276: •  Dimensions: 8.8 x 8.8 x 14.3 in (22.2 x 22.2 x 36.2 cm)
+ Line 285: Nested console… what a concept! In an electroplated cast aluminum top and iron legs, these two pieces fit together nicely or can be separated to accommodate your layout. Innovative and beautiful, indeed.
+ Line 290: •  Weight: 12.8 oz (362.87 g)
+ Line 291: •  Dimensions: 33.3 x 10.5 x 31 in (84.5 x 26.7 x 78.7 cm)
+
+colon Count = 46
+ Line 3: Category: Fashion -> Jewelry
+ Line 14: Category: Home -> Treasures -> Decorative Objects
+ Line 27: Category: Home -> Treasures -> Decorative Objects
+ Line 39: Category: Fashion -> Jewelry -> Necklace
+ Line 49: Category: Category: Fashion -> Jewelry -> Necklace
+ Line 61: Category: Category: Fashion -> Jewelry -> Necklace
+ Line 73: Category: Fashion -> Jewelry -> Necklace
+ Line 86: Category: Category: Fashion -> Jewelry -> Necklace
+ Line 97: Category: Home -> Indoor -> Kitchen and Tabletops
+ Line 105: Dimensions: H.30 x diameter 25 cm.
+ Line 113: Category: Home -> Indoor -> Kitchen and Tabletops
+ Line 121: Dimensions: H.30 x diameter 25 cm.
+ Line 129: Category: Home -> Treasures -> Furniture
+ Line 133: Dimensions: H.72 x L.66 x W.27 cm
+ Line 137: •  Fabric: HPL/fringes: viscose
+ Line 138: Weight: 27.34 lb (12.4 kg)
+ Line 139: Dimensions: H.72 x L.66 x W.27 cm
+ Line 150: Category: Health -> Physical Wellness
+ Line 156: •  Dimensions: 36 x 19 in (91.4 x 48.3 cm)
+ Line 157: Product Materials: Vegan
+ Line 165: Category: Health -> Physical Wellness
+ Line 167: Benefits:
+ Line 181: Category: Home -> Indoor -> Kitchen and Tabletop
+ Line 190: •  Weight: 3 lb (1.36 kg)
+ Line 191: •  Dimensions: Approximately 12 x 12 x 1 in (30.5 x 30.5 x 2.5 cm)
+ Line 199: Category: Health -> Apothecary -> Aromatics
+ Line 202: *Note: This product is not returnable
+ Line 210: Category: Health -> Apothecary -> Aromatics
+ Line 214: Fragrance notes:
+ Line 215: Top: blood orange zest, lemon zest, sparkling cassis.
+ Line 216: Middle: crushed pine cone accord, cloves, frosted eucalyptus notes.
+ Line 217: Base: Douglas fir needles, iced mossy notes, cedarwood.
+ Line 219: Note: seasonal items can't be returned
+ Line 231: Category: Health -> Apothecary -> Aromatics
+ Line 236: Note: this product isn't returnable
+ Line 238: Fragrance notes:
+ Line 239: Top: mandarin peel, orchid notes, lemon zest.
+ Line 240: Middle: vetiver, patchouli, amber.
+ Line 241: Base: oakwood, cedarwood, cashmere.
+ Line 255: Category: Fashion -> Accessories -> Wallets
+ Line 270: Category: Home -> Indoor -> Home Accents
+ Line 275: •  Weight: 11.66 lb (5.29 kg)
+ Line 276: •  Dimensions: 8.8 x 8.8 x 14.3 in (22.2 x 22.2 x 36.2 cm)
+ Line 284: Category: Home -> Treasures -> Furniture
+ Line 290: •  Weight: 12.8 oz (362.87 g)
+ Line 291: •  Dimensions: 33.3 x 10.5 x 31 in (84.5 x 26.7 x 78.7 cm)
+
+db_colon Count = 0
+
+items Count = 20
+ Line 2: Items - 1
+ Line 13: Items - 1
+ Line 26: Items - 1
+ Line 38: Items -
+ Line 48: Items - 1
+ Line 59: Items - 1 - 16” chain
+ Line 72: Items - 1
+ Line 85: Items - 1
+ Line 96: Items - 1
+ Line 112: Items - 1
+ Line 128: Items - 1
+ Line 147: Items - 4 -Blush
+ Line 164: Items - 2
+ Line 180: Items - 3
+ Line 198: Items - 6
+ Line 209: Items -
+ Line 230: Items - 4
+ Line 251: Items - 3 Black
+ Line 269: Items - 1
+ Line 283: Items - 1
+
+category Count = 20
+ Line 3: Category: Fashion -> Jewelry
+ Line 14: Category: Home -> Treasures -> Decorative Objects
+ Line 27: Category: Home -> Treasures -> Decorative Objects
+ Line 39: Category: Fashion -> Jewelry -> Necklace
+ Line 49: Category: Category: Fashion -> Jewelry -> Necklace
+ Line 61: Category: Category: Fashion -> Jewelry -> Necklace
+ Line 73: Category: Fashion -> Jewelry -> Necklace
+ Line 86: Category: Category: Fashion -> Jewelry -> Necklace
+ Line 97: Category: Home -> Indoor -> Kitchen and Tabletops
+ Line 113: Category: Home -> Indoor -> Kitchen and Tabletops
+ Line 129: Category: Home -> Treasures -> Furniture
+ Line 150: Category: Health -> Physical Wellness
+ Line 165: Category: Health -> Physical Wellness
+ Line 181: Category: Home -> Indoor -> Kitchen and Tabletop
+ Line 199: Category: Health -> Apothecary -> Aromatics
+ Line 210: Category: Health -> Apothecary -> Aromatics
+ Line 231: Category: Health -> Apothecary -> Aromatics
+ Line 255: Category: Fashion -> Accessories -> Wallets
+ Line 270: Category: Home -> Indoor -> Home Accents
+ Line 284: Category: Home -> Treasures -> Furniture
+
+details Count = 14
+ Line 41: Details
+ Line 52: Details
+ Line 65: Details
+ Line 78: Details
+ Line 88: Details
+ Line 103: Details
+ Line 119: Details
+ Line 135: Details
+ Line 155: Details
+ Line 188: Details
+ Line 221: Details
+ Line 259: Details
+ Line 273: Details
+ Line 288: Details
+
+numbered Count = 0
+
+price Count = 20
+ Line 9: $32
+ Line 23: $30
+ Line 35: $30
+ Line 44: $24
+ Line 55: $38.00
+ Line 68: $24.00
+ Line 80: $58.00
+ Line 91: $68.00
+ Line 107: $219.07
+ Line 123: $219.07
+ Line 141: $958.57
+ Line 159: $24.00
+ Line 175: $18.00
+ Line 193: $70.00
+ Line 204: $11.00
+ Line 225: $31.00
+ Line 245: $34.00
+ Line 264: $65.00
+ Line 278: $156.00
+ Line 293: $780.00
+

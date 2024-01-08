@@ -1,0 +1,52 @@
+fashion-men-apparel
+fashion-men-thnk-branded
+fashion-men-hats
+fashion-men-outerwear
+fashion-women-apparel
+fashion-women-thnk-branded
+fashion-women-hats
+fashion-women-outerwear
+fashion-kids-appeal
+fashion-kids-comfort
+fashion-jewelry-rings
+fashion-jewelry-bracelets
+fashion-jewelry-necklaces
+fashion-jewelry-earrings
+fashion-accessories-bags/totes
+fashion-accessories-wallets
+fashion-accessories-Thnk:branded
+home-indoor-home accents
+home-indoor-kitchen and table top
+home-indoor-art
+home-indoor-furniture
+home-indoor-pets
+home-outdoor-garden
+home-treasures-furniture
+home-treasures-decorative objects
+home-treasures-bundles
+health-wellness-spiritual
+health-wellness-physical
+health-wellness-emotional
+health-wellness-social
+health-wellness-intellectual
+health-wellness-vocational
+health-wellness-financial
+health-wellness-environmental
+health-apothecary-skincare
+health-apothecary-supplements and herbs
+health-apothecary-aromatics
+occasions-reading-self help
+occasions-reading-wisdom/inspiration
+occasions-reading-journals/keepsakes
+occasions-reading-poetry
+occasions-reading-children
+occasions-games-family
+occasions-games-adults
+occasions-games-children
+Occasions-holiday-holiday
+members only-intimacy-toys
+members only-intimacy-oils
+members only-CBD-edibles
+members only-CBD-drinks
+members only-CBD-topical/body
+members only-CBD-pets
