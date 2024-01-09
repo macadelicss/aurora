@@ -1,6 +1,6 @@
-# aurora_main
+# Auroa
 
-This is a Rails 7.1 app.
+This is a Rails 7.1 app, mixed with everything under the sun...
 
 ## Prerequisites
 
