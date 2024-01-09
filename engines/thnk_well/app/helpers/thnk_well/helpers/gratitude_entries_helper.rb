@@ -1,0 +1,2 @@
+module GratitudeEntriesHelper
+end
