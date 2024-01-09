@@ -1,0 +1,37 @@
+<% content_for :title, @date.to_formatted_s(:full) %>
+<% content_for :header_navigation, render("days/navigation", date: @date) %>
+
+<div class="grid md:grid-cols-2 gap-4 sm:gap-8">
+  <div class="space-y-4 sm:space-y-8">
+    <%= render "shared/components/list", title: "Exercise", path: new_exercise_entry_path(date: @date) do %>
+      <% @exercise_entries.each do |entry| %>
+        <%= render "shared/components/list/item", title: entry.name, href: edit_exercise_entry_path(entry) %>
+      <% end %>
+    <% end %>
+
+    <%= render "shared/components/list", title: "Medication & supplements", path: new_medication_entry_path(date: @date) do %>
+      <% @medication_entries.each do |entry| %>
+        <%= render "shared/components/list/item", title: entry.name, href: edit_medication_entry_path(entry) %>
+      <% end %>
+    <% end %>
+
+    <%= render "shared/components/list", title: "Water", path: new_water_entry_path(date: @date) do %>
+      <%= render "shared/components/list/item", title: "#{@water.value.round} #{@water.unit.name}" %>
+    <% end %>
+  </div>
+
+  <div>
+    <%= render "shared/components/list", title: "Food", path: new_food_entry_path(date: @date) do %>
+      <% @food_entries.each do |entry| %>
+        <%= render "shared/components/list/item", title: entry.name, href: edit_food_entry_path(entry), out: entry.out? %>
+      <% end %>
+    <% end %>
+  </div>
+</div>
+
+<%= link_to "Settings", settings_path,
+            "data-controller": "bridge--button",
+            "data-bridge-ios-image": "person.circle",
+            "data-bridge-side": "left",
+            class: "btn-secondary w-full mt-8 non-turbo-native:hidden"
+%>

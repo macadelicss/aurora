@@ -1,0 +1,27 @@
+<%# locals: (title:) %>
+
+<header class="bg-white shadow turbo-native:hidden">
+  <div class="mx-auto max-w-7xl px-4 py-4 sm:py-6 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center">
+      <div class="flex items-center space-x-4">
+        <%= link_to root_path do %>
+          <span class="sr-only">Daily Log</span>
+          <%= inline_svg "logo.svg", class: "h-8 sm:h-10 w-auto text-gray-600" %>
+        <% end %>
+        <h1 class="text-xl sm:text-3xl font-bold leading-tight tracking-tight text-gray-900"><%= title %></h1>
+        <%= content_for :header_navigation %>
+      </div>
+      <% if user_signed_in? %>
+        <%= link_to settings_path, class: "rounded-md bg-white px-3 py-2 text-gray-900 hover:bg-gray-50" do %>
+          <%= inline_svg "icons/outline/user_circle.svg", class: "w-6 h-6" %>
+          <span class="sr-only">Settings</span>
+        <% end %>
+      <% else %>
+        <a href="https://github.com/joemasilotti/daily-log" target="_blank" class="inline-flex items-center gap-x-2 rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
+          <%= inline_svg "github.svg", class: "-ml-0.5 h-5 w-5" %>
+          Fork me on GitHub
+        </a>
+      <% end %>
+    </div>
+  </div>
+</header>
