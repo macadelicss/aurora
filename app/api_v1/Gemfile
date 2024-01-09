@@ -1,0 +1,20 @@
+source "https://rubygems.org"
+
+ruby Pathname.new(__dir__).join(".ruby-version").read.strip
+
+gem "rails", "~> 7.1.2"
+gem "pg", "~> 1.1"
+gem "puma", ">= 5.0"
+gem "tzinfo-data", platforms: %i[ windows jruby ]
+gem "bootsnap", require: false
+gem 'rack-cors'
+gem 'jbuilder'
+gem 'dotenv-rails'
+
+group :development, :test do
+  gem "rspec-rails"
+  gem "debug", platforms: %i[ mri windows ]
+end
+
+group :development do
+end
