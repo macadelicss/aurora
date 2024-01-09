@@ -1,0 +1,2 @@
+class MeditationEntry < ApplicationRecord
+end

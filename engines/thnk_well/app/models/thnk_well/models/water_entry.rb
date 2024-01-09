@@ -1,0 +1,2 @@
+class WaterEntry < ApplicationRecord
+end

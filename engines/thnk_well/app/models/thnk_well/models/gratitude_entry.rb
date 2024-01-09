@@ -1,0 +1,2 @@
+class GratitudeEntry < ApplicationRecord
+end
